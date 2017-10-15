@@ -1,11 +1,13 @@
 # Lodi Theme
 
-This theme is a Hugo port of [Alexis Collado's portfolio website](alexiscollado.com). It is meant to be a single-page responsive theme, with sections for describing yourself, your 
+This theme is a Hugo port of [Alexis Collado's portfolio website](www.alexiscollado.com). It is meant to be a single-page responsive theme, with sections for describing yourself, your 
 process, and some case studies.
 
 ![](images/screenshot.png)
 
-## Installation Follow the themes guide on the [Hugo website](https://gohugo.io/themes/installing-and-using-themes/). Briefly, within your Hugo folder:
+## Installation
+
+Follow the themes guide on the [Hugo website](https://gohugo.io/themes/installing-and-using-themes/). Briefly, within your Hugo folder:
 
 ```sh
 $ cd themes
