@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ partial "header.html" . }}
+    </head>
+    <body>
+        <div>
+            {{ if .Site.Params.nav.enable }}
+            {{ partial "nav.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.hero.enable }}
+            {{ partial "hero.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.process.enable }}
+            {{ partial "process.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.case_studies.enable }}
+            {{ partial "case_studies.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.footer.enable }}
+            {{ partial "footer.html" }}
+            {{ end }}
+        </div>
+
+        {{ partial "scripts.html" . }}
+
+    </body>
+</html>
