@@ -446,10 +446,10 @@ section {
   padding: 15px 15px 15px 0;
 }
 
-.case-links svg {
+.case-links img {
   position: relative;
   top: 2.9px;
-  padding-right: 1.5em;
+  padding-right: 8px;
 }
 
 .case-detail-link {
