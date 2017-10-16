@@ -5,10 +5,10 @@
             <h2 class="subtitle">{{ .Site.Params.case_studies.Subtitle }}</h2>
         </div>
         <div class="case-studies-wrapper">
-            {{ .Content }}
-            {{ range .Pages }}
+            {{ $baseUrl := .Site.BaseURL }}
+            {{ range .Site.RegularPages }}
             <div class="case-study-item">
-                <a href="{{ .URL }}"><img src="img/{{ .Params.thumbnail }}" alt=""></a>
+                <a href="{{ .URL }}"><img src="{{ $baseUrl }}img/{{ .Params.thumbnail }}" alt=""></a>
                 <h4>{{ .Params.case_title }}</h4>
                 <h5>{{ .Params.case_subtitle }}</h5>
                 <p>{{ .Params.case_description }}</p>
