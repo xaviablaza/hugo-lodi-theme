@@ -1,186 +1,108 @@
 ---
-weight: 1
-title: "Cope | Alexis Collado"
-description: "I set a direction for the branding and identity of the product and crafted a functioning prototype ready for usability testing and development."
-nav_heading: "Cope Case Study"
-thumbnail: "cope.jpg"
-case_title: "Cope iOS App"
-case_subtitle: "Mobile App Design"
-case_description: "Cope is a mobile app that allows mental health help seekers track their symptoms and medication. I helped them create a minimum viable product for testing."
+weight: 3
+title: "TEDxADMU | Alexis Collado"
+description: "I strategized, designed, and developed a simple landing page for TEDxADMU to set their application conversions to 66.8%."
+nav_heading: "TEDxADMU Case Study"
+thumbnail: "tedx.jpg"
+case_short_title: "TEDxADMU Website"
+case_title: "TEDxADMU Website"
+case_subtitle: "Web Design"
+case_description: "The TEDxADMU website was a project for the Ateneo Junior Marketing Association. It's a project where I helped them reach a 66.8% conversion rate from scratch."
 case_feature_img: "featured-cope.jpg"
-case_summary: "Cope is an application that helps users track their mental health. Progress is measured through the use of a check-in system, calendar, medicine tracker and a summary dashboard. I created a minimum viable product for this application."
-team: ["Alexis Collado", "Carlos Arcenas", "Kat Uytiepo", "John Palomo"]
-roles: ["Branding and Identity", "User Interface Design", "Prototyping", "User Research"]
-methods: ["Sketching", "Mockups", "Guerilla Testing"]
+case_summary: "TEDxADMU is an independently organized community event that aims to spread ideas that inform and transform society. My role in the project was to design their website and make the application process as easy and seamless as possible."
+team: ["Alexis Collado", "Royce Chan"]
+roles: ["Project Manager", "User Interface Design", "Front-end Development]
+methods: ["Contextual Inquiry", "Google Analytics", "Web Development", "User Interface Design"]
 button_links:
-    - link: "https://marvelapp.com/g4b64e/screen/14364499"
+    - link: "http://tedxadmu.ph"
       img: "eyeball.svg"
-      text: "View Prototype"
-    - link: "http://copenow.co/"
-      img: "eyeball.svg"
-      text: "View Landing Page"
-    - link: "cope.pdf"
-      img: "download.svg"
+      text: "View Website"
       text: "Download Feature Sets"
-testimonial: "Alexis designed everything for Cope from the ground up. What I really like about him is his true understanding and grasp of what makes a great UI great. He knows that the user experience needs a lot of refining from customers and he isn't shy to take feedback even if it's critical. Alexis is one of those rare people who just gets it."
-testimonial_photo: "john.jpg"
-testimonial_author: "John Robert Palomo"
-testimonial_subtitle: "Co-founder, Cope"
+testimonial: "The partnership with UX Society was nothing short of amazing. Throughout the entire ideation and execution process, they have meticulously attended to our needs. The website that was created for us allowed more for applicants to apply. We’ve seen a boost in the amount of applicants that have accessed the website and applied after visiting. We’re really happy to have worked with Alexis’ team and even until now, they still continue to maintain and attend to our needs."
+testimonial_photo: "nate.jpg"
+testimonial_author: "Nathaniel Benedicto"
+testimonial_subtitle: "Associate Vice President for Events, Ateneo Junior Marketing Association"
 date: 2017-10-15T03:29:08-07:00
 draft: false
 ---
 
+# Context
+
+![](//localhost:1313/tedx/img/projecti7.jpg)
+
+The Ateneo Junior Marketing Association always outsourced their website development to different organizations in the university. This year, they chose User Experience Society, the organization I founded to create a strong digital presence for their flagship event. TEDxADMU is acclaimed among the youth and is marked by the many up and coming trailblazers in the Philippine community.
+
 # The Challenge
 
-![](//localhost:1313/cope/img/persona.png)
+![](//localhost:1313/tedx/img/whycoordinate.jpg)
 
-A startup called Cope hired me to create a **minimum viable product**
-for their new idea — tracking mental health. It was the first project
-where I handled mobile app design, and I was very excited to learn the
-intricacies of the iOS platform.
+TEDxADMU always faced the same problems every year. How can we elevate the number of applications we receive? How do we communicate a credible and powerful presence online? How will our web copywriting, social media marketing, and word-of-mouth efforts convey the TEDxADMU brand as a cohesive whole? What platform will be the best to manage applications? How can we tell a compelling story through digital? As Consultancy Director of UX Society, I helped the organization answer these questions.
 
-My clients John and Kat have done some preliminary interviews
-with psychologists and psychiatrists to get their side of the picture.
-They have established a user persona, a business model canvas, and
-several startup prep work for the product to take off. My job was to
-actually create the experience for their users and make sure they are
-represented in the design process.
+# Contextual Inquiry and Discovery
 
-The design I created was a result of self-started questions,
-validating assumptions, benchmarking,  and guerilla testing. I could
-have done some more usability studies early in the process, however.
+![](//localhost:1313/tedx/img/sketchted.jpg)
 
-# Informal Competitive Analysis
+After doing interviews with the main stakeholders of the project. I was able to do rough sketches of the product. The meetings were all about establishing trust and rapport with the client first and making sure I set the strategy for the project.
 
-We checked the App Store for similar applications, and we found
-out that there were no well-designed niche applications for handling
-mental health. We found another app called Cope as well, but their
-solution was more of a community-based social sharing platform. We saw
-this as an opportunity for our own version of Cope to solve a unique
-problem in the space.
+**Moodboard**
+![](//localhost:1313/tedx/img/moodboard.jpg)
 
-![](//localhost:1313/cope/img/competition-cope.jpg)
-
-Instead, we drew inspiration from applications that feature the
-design components we needed: menstrual cycle management apps that have
-good summaries and calendars, emotion tracking apps, medicine tracking apps.
-
-I used the concepts gained from these applications to study how
-they understood the mental models of their own users and hopefully
-replicate that kind of empathy whenever I create design decisions for Cope.
-
-# Pivoting
-
-We had feature changes and a lot of design decisions cancelled.
-Before, we had different modules for the design: forums, mental health
-doctor search, messaging.
-
-![](//localhost:1313/cope/img/discarded.jpg)
-
-We finalized the components of Cope that we wanted to build and
-we decided that we wanted to focus on tracking their progress for
-mental health. I had to drop some UI explorations I did for the first
-version of Cope we were building.
+I asked the team I'm working with to come up with a moodboard to establish the visual language we want to use for the project.
             
-# Ideation and Feature Prioritization
+# Design Decisions
 
-How do we exactly track one's progress in mental health? How do
-we make sure that the design is as usable as possible? What specific
-things should we track? How do we gauge someone's well-being in as few
-questions as possible? How do we design an efficient system for tracking
-and managing medication, and how does it tie up with the overall
-well-being score and progress of the user? How do we make a
-habit-forming product?
-            
-![](//localhost:1313/cope/img/sketch.png)
+Since the TEDxADMU team has yet to finalize the complete details of the 2017 event, I recommended a three-phase release for the project.
 
-There were so many questions we had to answer going into the
-project, but we decided on four key features that will serve as the
-solution to the mental health tracking problem: a self-report check-in
-system, medicine tracker, calendar overview, and summary dashboard. All
-modules work together to form a cohesive whole as a mental health
-tracking platform.
-            
-![](//localhost:1313/cope/img/summary.png)
+The first release would be a teaser site where potential attendees learn about what the event is about, its history, and its talk/speaker playlist. Most importantly, I suggested that the design solution should focus on making it easy to receive applications. I decided it was best to go with a Typeform linked to the "Apply" buttons because of the product's excellent form input experience. The team was also familiar with the platform and it will make it easier for them to process applications.
 
-# Assumptions and Considerations
+![](//localhost:1313/tedx/img/phases.png)
 
-**The boundaries of self-reporting and analysis** 
-<br>We cannot really derive a diagnosis from the self-report component of
-the application because doctors are the only ones qualified to do it.
-There are so many factors that relate to mental health, and we realized
-as a team that the last thing that our app would want to do is to guess.
-The design decision is to tally user's progress based on his or her own
-input, and we would assign a total well-being score based on the
-aggregate of their answers.
-            
-![](//localhost:1313/cope/img/calendar.png)
+The second phase will focus on hyping up the event even more. Showcasing the speakers will be the core of the website experience. The third phase will be done post-event, where the centerpiece of the experience is about helping the attendees and non-attendees relive the experience. These phases have yet to be done.
 
-**Frequency of data collection**
-<br>How exactly do we know if the emotion that was self-reported persisted all throughout
-the day? As human beings, our emotions constantly change. We can't do a
-self-check just once a day because the data becomes inaccurate. We
-decided to have multiple check-ins as the solution. That changed the
-initial design I created for the calendar screen.
-            
-# User Flow Brainstorming
+# Hi-Fidelity Mockups
 
-![](//localhost:1313/cope/img/flow.png)
+![](//localhost:1313/tedx/img/cta.png)
 
-**Designing the onboarding process**
-<br>The onboarding process starts with the user signing up or logging in and
-keying important data. The user then performs his or her first symptoms
-check-in. This is essential so there could be a baseline for his or her
-data in the calendar and summary screens. He or she is led to an empty
-state of the medicine tracker screen. From there, the user could add
-medicine or check out his summary or calendar.   
-         
-# Hi-Fidelity Design
+**Consistent Call-to-Actions**
+<br>The problem we wanted to solve was making sure people apply. This design delivers the best impact to solve that problem. Providing the context through photos and good copywriting was the only challenge left, since it's a landing page.
 
-After asking so many questions about the product and validating
-our assumptions with experts, I created different screens using Sketch.
-There were multiple versions and ideas that I had to validate, and
-frankly, I feel like I haven't tested the solutions that I created yet.
-During this phase, I got advice from a data visualization desginer if I
-were designing the graphs correctly. I created a quick [landing page as well.](http://copenow.co)
-            
-![](//localhost:1313/cope/img/add-medicine.png)
+# Front-end Development
 
-**Design Intentionality**
-<br>There are so many nuances during the high fidelity design phase
-and so we kept on going back to sketching all the time. I tried to be
-smarter in thinking about the usability of each design. My focus was to
-be more intentional in all of the affordances I create within the application.
-            
-# Prototyping
+I coded the website in a duration of two days with my developer partner, Royce Chan. We made sure that the images were optimized for performance. I was very meticulous about the spacing of the elements and how close the final product was to the Sketch file I created. We also embedded the Typeform as an external link with the access granted from the TEDxADMU team.
 
-I built [the prototype](https://marvelapp.com/g4b64e/screen/14364499) 
-with Invision first but I encountered some problems with the tool.
-MarvelApp proved a better choice. After building the prototype with
-normal hotlinks, I believe we were ready to try it out with some users.
-                                      
-# Guerilla Testing
+# Analytics
 
-I tested the application with 7 college students from Ateneo de
-Manila University with convenience sampling. The results revealed some
-usability questions for the app. What would the users actually do after
-keying in their symptoms for the day? What if they do not have
-medication ready? How can we get them to come back and actually use it
-again? Indeed, there are many more things to design for the product that
-we have not explored yet.
-            
+![](//localhost:1313/tedx/img/events.png)
+
+After crunching the data collected for the past two months that the site went live, the most recent statistic I got was a 66.8% conversion rate. I used the number of events and the pageviews to come up with the rate. I asked helped from my mentor, Mica from Nuworks, to figure out how to track click events and how to actually analyze the data.
+
+# Usability Testing
+
+Doing a usability test using the think-aloud protocol with one user revealed some issues with the product that could easily be fixed.
+
+<iframe style="display: block; margin: 0 auto; max-width: 100%; height: 45vw;" src="https://www.youtube.com/embed/6EXV0toCbOE" allowfullscreen="" width="853" height="505" frameborder="0"></iframe>
+
+**Hero Copywriting Confusion**
+<br>The user confused the countdown as pertaining to the deadline of the application, when in fact, it was the countdown to the date of the event itself. There's an opportunity to make the copywriting even more clear and precise in the next iteration.
+
+**Redundancy in Copywriting**
+<br>The user felt that separating the parts "What is TEDx" and "What is TEDxADMU" were irrelevant because they could have been combined. It made her feel that she didn't want to read the TEDxADMU section because she already knows what TEDx is.
+
+**Navigation Inconsistency**
+<br>The user noticed that the anchor links on the navigation header corresponded to the red subtitles of the section content. She said that the "Video Reel" link on the top navigation should be renamed to "Talks" to stay consistent.
+
+**Confusion at The End**
+<br>The user felt that she reached the end of the page but she found out that she can still scroll down only to find a video. The user said that she felt it was lacking and compromised the whole experience.
+
 # Next Steps
 
-The project is actually in development now and the next step is
-to conduct usability tests, install analytics and use new insights to
-inform new iterations of the product. Design a better onboarding
-process. Design for empty states. Design copywriting and strategy for
-push notifications as trigger. Integrate a social aspect into the
-application. All these will be helpful to create a better design for the app.
-            
-![](//localhost:1313/cope/img/cope-final.png)
+![](//localhost:1313/tedx/img/nextstepsted.jpg)
 
-In reality, product design is the easy part. The real problems
-we're facing involve fighting a stigma around mental health, building an
-open, supportive and vulnerable community, and creating a sustainable
-business model for the product.
+**Address Usability Issues from Testing**
+<br>There were a lot of issues that came up during the user test I did using the think-aloud protocol. I'm excited to work on the feedback so we can iterate on the current product.
+
+**Phase Two and Three**
+<br>For the rest of the project, majority of the efforts will be spent on designing an experience that builds up hype for the audience for Phase Two. Next, Phase Three will be about uploading the videos, insights, and learnings post-event.
+
+**Conduct More Usability Research**
+<br>I want to find more participants with diverse opinions on the product and hopefully find more issues with its use.

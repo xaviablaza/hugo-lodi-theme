@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 2
 title: "Cope | Alexis Collado"
 description: "I set a direction for the branding and identity of the product and crafted a functioning prototype ready for usability testing and development."
 nav_heading: "Cope Case Study"
