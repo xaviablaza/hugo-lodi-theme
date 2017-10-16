@@ -8,7 +8,7 @@ case_short_title: "TEDxADMU Website"
 case_title: "TEDxADMU Website"
 case_subtitle: "Web Design"
 case_description: "The TEDxADMU website was a project for the Ateneo Junior Marketing Association. It's a project where I helped them reach a 66.8% conversion rate from scratch."
-case_feature_img: "featured-cope.jpg"
+case_feature_img: "featured-tedx.jpg"
 case_summary: "TEDxADMU is an independently organized community event that aims to spread ideas that inform and transform society. My role in the project was to design their website and make the application process as easy and seamless as possible."
 team: ["Alexis Collado", "Royce Chan"]
 roles: ["Project Manager", "User Interface Design", "Front-end Development"]
