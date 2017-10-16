@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>{{ .Params.Title }}</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#574CDD">
+
+<!-- desc -->
+<meta name="description" content="{{ .Description }}">
+<meta property="og:description" content="{{ .Description }}">
+<meta name="twitter:description" content="{{ .Description }}">
+
+<!-- image -->
+<meta property="og:image" content="{{ .Params.Thumbnail }}">
+<meta name="twitter:image" content="{{ .Params.Thumbnail }}">
+
+<link rel="icon" href="{{ .Site.BaseURL }}img/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.png" type="image/x-icon">
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/css.css" >
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/final.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css">

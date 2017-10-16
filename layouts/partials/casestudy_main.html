@@ -1,0 +1,72 @@
+<section>
+    <div class="main-case-study">
+        <h1 class="title" style="text-align: center;">{{ .Params.case_title }}</h1>
+        <h2 class="subtitle" style="text-align: center;">{{ .Params.case_subtitle }}</h2>
+        <img src="{{ .Site.BaseURL }}img/{{ .Params.case_feature_img }}" alt="">
+        <p class="summary">{{ .Params.case_summary }}</p>
+        <div class="case-details">
+            <div class="case-details-item">
+                <p><strong>Team</strong>
+                    {{ range .Params.team }}
+                    <br>{{ . }}
+                    {{end}}
+                </p>
+            </div>
+            <div class="case-details-item">
+                <p><strong>My Role</strong>
+                    {{ range .Params.roles }}
+                    <br>{{ . }}
+                    {{ end }}
+                </p>
+            </div>
+            <div class="case-details-item">
+                <p><strong>Methods</strong>
+                    {{ range .Params.methods }}
+                    <br>{{ . }}
+                    {{ end }}
+                </p>
+            </div>
+        </div>
+        <h1 style="color: black; font-family: merriweather; font-size: 26px; line-height: 1.7em; margin-top: 20px;">{{ .Description }}</h1>
+        <div class="case-links">
+            <div class="link-div">
+                <a href="https://marvelapp.com/g4b64e/screen/14364499" target="blank" class="case-detail-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16">
+                        <g>
+                            <path fill="#5f4feb" d="M8,14c4.707,0,7.744-5.284,7.871-5.508c0.171-0.304,0.172-0.676,0.001-0.98C15.746,7.287,12.731,2,8,2
+                    C3.245,2,0.251,7.289,0.126,7.514c-0.169,0.303-0.168,0.672,0.002,0.975C0.254,8.713,3.269,14,8,14z M8,4
+                    c2.839,0,5.036,2.835,5.818,4C13.034,9.166,10.837,12,8,12c-2.841,0-5.038-2.838-5.819-4.001C2.958,6.835,5.146,4,8,4z"></path>
+                            <circle data-color="color-2" fill="#5f4feb" cx="8" cy="8" r="2"></circle>
+                        </g>
+                    </svg>
+                    View Prototype
+                </a>
+            </div>
+            <div class="link-div">
+                <a href="http://copenow.co/" target="blank" class="case-detail-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16">
+                        <g>
+                            <path fill="#5f4feb" d="M8,14c4.707,0,7.744-5.284,7.871-5.508c0.171-0.304,0.172-0.676,0.001-0.98C15.746,7.287,12.731,2,8,2
+                    C3.245,2,0.251,7.289,0.126,7.514c-0.169,0.303-0.168,0.672,0.002,0.975C0.254,8.713,3.269,14,8,14z M8,4
+                    c2.839,0,5.036,2.835,5.818,4C13.034,9.166,10.837,12,8,12c-2.841,0-5.038-2.838-5.819-4.001C2.958,6.835,5.146,4,8,4z"></path>
+                            <circle data-color="color-2" fill="#5f4feb" cx="8" cy="8" r="2"></circle>
+                        </g>
+                    </svg>
+                    View Landing Page
+                </a>
+            </div>
+            <div class="link-div">
+                <a href="http://alexiscollado.com/cope.pdf" target="blank" class="case-detail-link">
+                    <svg style="top: 1.8px !important;" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16">
+                        <g>
+                            <polygon data-color="color-2" fill="#5f4feb" points="9,8 9,1 7,1 7,8 4.6,8 8,12 11.4,8 "></polygon>
+                            <path fill="#5f4feb" d="M15,16H1c-0.6,0-1-0.4-1-1V6c0-0.6,0.4-1,1-1h3v2H2v7h12V7h-2V5h3c0.6,0,1,0.4,1,1v9C16,15.6,15.6,16,15,16z
+                    "></path>
+                        </g>
+                    </svg>
+                    Download Feature Sets
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
