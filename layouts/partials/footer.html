@@ -1,6 +1,7 @@
 <footer>
     <div class="icons">
-        <a href="mailto:lex.collado@gmail.com">
+        {{ if isset .Site.Params "email" }}
+        <a href="mailto:{{ .Site.Params.Email }}">
             <svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
                 <title>ui-16px-1_email-84</title>
@@ -17,7 +18,9 @@
                 </g>
             </svg>
         </a>
-        <a href="https://facebook.com/lex.collado" target="blank">
+        {{ end }}
+        {{ if isset .Site.Params "facebook" }}
+        <a href="https://facebook.com/{{ .Site.Params.Facebook }}" target="blank">
             <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
                 <title>social-16px_logo-facebook</title>
@@ -34,7 +37,9 @@
                 </g>
             </svg>
         </a>
-        <a href="https://twitter.com/alexiscollado" target="blank">
+        {{ end }}
+        {{ if isset .Site.Params "twitter" }}
+        <a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="blank">
             <svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
                 <title>social-16px_logo-twitter</title>
@@ -51,7 +56,9 @@
                 </g>
             </svg>
         </a>
-        <a href="https://dribbble.com/alexiscollado" target="blank">
+        {{ end }}
+        {{ if isset .Site.Params "dribbble" }}
+        <a href="https://dribbble.com/{{ .Site.Params.Dribbble }}" target="blank">
             <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
                 <title>social-16px_logo-dribbble</title>
@@ -68,7 +75,9 @@
                 </g>
             </svg>
         </a>
-        <a href="https://www.linkedin.com/in/alexander-hans-collado-jr-9444146a" target="blank">
+        {{ end }}
+        {{ if isset .Site.Params "linkedin" }}
+        <a href="{{ .Site.Params.LinkedIn }}" target="blank">
             <svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
                 <title>social-16px_logo-linkedin</title>
@@ -85,11 +94,13 @@
                 </g>
             </svg>
         </a>
-        <a href="https://medium.com/@ahvccollado" target="blank">
+        {{ end }}
+        {{ if isset .Site.Params "medium" }}
+        <a href="https://medium.com/@{{ .Site.Params.Medium }}" target="blank">
             <img src="img/medium.png" style="width: 16px;" alt="">
         </a>
+        {{ end }}
     </div>
 
-    <a href="#" style="color: #574cdd
-    ; text-decoration: underline;" data-scroll-goto="0">Back to top</a>
+    <a href="#" style="color: #574cdd; text-decoration: underline;" data-scroll-goto="0">Back to top</a>
 </footer>

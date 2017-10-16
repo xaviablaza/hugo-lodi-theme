@@ -5,16 +5,16 @@
 <meta name="theme-color" content="#574CDD">
 
 <!-- desc -->
-<meta name="description" content="Portfolio of Alexis Collado, UX Designer">
-<meta property="og:description" content="Portfolio of Alexis Collado, UX Designer">
-<meta name="twitter:description" content="Portfolio of Alexis Collado, UX Designer">
+<meta name="description" content="Portfolio of {{ .Site.Params.my_name }}, {{ .Site.Params.job_position }}">
+<meta property="og:description" content="Portfolio of {{ .Site.Params.my_name }}, {{ .Site.Params.job_position }}">
+<meta name="twitter:description" content="Portfolio of {{ .Site.Params.my_name }}, {{ .Site.Params.job_position }}">
 
 <!-- image -->
-<meta property="og:image" content="portfolio.jpg">
-<meta name="twitter:image" content="portfolio.jpg">
+<meta property="og:image" content="{{ .Site.BaseURL }}img/portfolio.jpg">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}img/portfolio.jpg">
 
-<link rel="icon" href="img/favicon.png" type="image/x-icon">
-<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+<link rel="icon" href="{{ .Site.BaseURL }}img/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.png" type="image/x-icon">
 
 <link rel="stylesheet" href="css/css.css" >
 <link rel="stylesheet" href="css/final.css">

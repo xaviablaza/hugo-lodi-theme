@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang ="{{ .Site.LanguageCode }}">
     <head>
         {{ partial "header.html" . }}
     </head>
@@ -22,7 +22,7 @@
             {{ end }}
 
             {{ if .Site.Params.footer.enable }}
-            {{ partial "footer.html" }}
+            {{ partial "footer.html" . }}
             {{ end }}
         </div>
 
