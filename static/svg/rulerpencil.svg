@@ -1,0 +1,27 @@
+<svg width="34px" height="37px" viewBox="0 0 34 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>design-64px-outline-2_ruler-pencil</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-565.000000, -780.000000)" id="Group-11" stroke-width="2">
+            <g transform="translate(560.000000, 777.000000)">
+                <g id="design-64px-outline-2_ruler-pencil" transform="translate(6.000000, 4.000000)">
+                    <g id="Group">
+                        <path d="M26.2857143,5.71428571 L26.2857143,26.2857143" id="Shape" stroke="#00CEDB"></path>
+                        <path d="M20.5714286,5.71428571 L32,5.71428571" id="Shape" stroke="#505050"></path>
+                        <path d="M20.5714286,26.2857143 L32,26.2857143" id="Shape" stroke="#505050"></path>
+                        <polygon id="Shape" stroke="#505050" points="32 26.2857143 26.2857143 33.1428571 20.5714286 26.2857143 20.5714286 0 32 0"></polygon>
+                        <path d="M0,16 L5.14285714,16" id="Shape" stroke="#00CEDB"></path>
+                        <path d="M0,20.5714286 L4,20.5714286" id="Shape" stroke="#00CEDB"></path>
+                        <path d="M0,29.7142857 L4,29.7142857" id="Shape" stroke="#00CEDB"></path>
+                        <path d="M0,6.85714286 L5.14285714,6.85714286" id="Shape" stroke="#00CEDB"></path>
+                        <path d="M0,11.4285714 L4,11.4285714" id="Shape" stroke="#00CEDB"></path>
+                        <path d="M0,25.1428571 L5.14285714,25.1428571" id="Shape" stroke="#00CEDB"></path>
+                        <rect id="Rectangle-path" stroke="#505050" x="0" y="0" width="13.7142857" height="34.2857143"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

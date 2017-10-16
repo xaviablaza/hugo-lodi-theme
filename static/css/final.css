@@ -248,8 +248,8 @@ section {
   padding-top: 20px;
 }
 
-.process-item svg {
-  margin-right: 15px;
+.process-item h3 {
+  margin-left: 15px;
 }
 
 .process-wrapper {
@@ -324,6 +324,7 @@ section {
   color: #5A5A5A;
   margin: 0;
   line-height: 0.3em;
+  text-transform: uppercase;
 }
 
 .case-study-item p {

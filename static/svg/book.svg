@@ -1,0 +1,19 @@
+<svg width="34px" height="31px" viewBox="0 0 34 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>design-64px-outline_book-open</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-89.000000, -786.000000)" id="Group-10" stroke-width="2">
+            <g transform="translate(90.000000, 780.000000)">
+                <g id="design-64px-outline_book-open" transform="translate(0.000000, 7.000000)">
+                    <g id="Group">
+                        <path d="M16,3.73333333 L16,18.1333333" id="Shape" stroke="#00CEDB"></path>
+                        <polyline id="Shape" stroke="#505050" points="28.8 3.2 32 3.2 32 28.8 0 28.8 0 3.2 3.2 3.2"></polyline>
+                        <path d="M16,3.73333333 C12.4,1.0224 7.64426667,0 3.2,0 L3.2,21.8666667 C7.64426667,21.8666667 12.4,22.8890667 16,25.6 C19.6,22.8890667 24.3557333,21.8666667 28.8,21.8666667 L28.8,0 C24.3557333,0 19.6,1.0224 16,3.73333333 Z" id="Shape" stroke="#505050"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
