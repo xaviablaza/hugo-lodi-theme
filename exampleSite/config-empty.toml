@@ -5,11 +5,11 @@ theme = "hugo-lodi-theme"
 
 [params]
     # head theme color
-    theme_color = 
+    theme_color = ""
 
     # head description
     # This is what appears on the preview when posting this site on Facebook for example
-    description = "Portfolio of Alexis Collado, UX Designer"
+    description = ""
 
     # head photo
     # This is what appears on the preview when posting this site on Facebook for example
@@ -23,22 +23,22 @@ theme = "hugo-lodi-theme"
     logo = "logo.jpg"
 
     # Email
-    email = ""
+    # email = ""
 
     # Facebook username
-    facebook = ""
+    # facebook = ""
 
     # Twitter username
-    twitter = ""
+    # twitter = "asdf"
 
     # Dribbble username
-    dribbble = ""
+    # dribbble = ""
 
     # LinkedIn URL
-    linkedin = ""
+    # linkedin = ""
     
     # Medium username
-    medium = ""
+    # medium = "asdf"
 
 [params.nav]
     enable = true
@@ -48,19 +48,19 @@ theme = "hugo-lodi-theme"
     
     # Place this image in the static/img folder
     avatar = "avatar.jpg"
-    subtitle = "Hi! I'm Alexis, a UX Designer and Evangelist from Manila."
+    subtitle = "Hi! I'm Juan, a front-end developer from Manila."
 
     # Each element in this array makes a new <p> tag
     # You can write this text in markdown
     hero_right = [
-    "**Currently doing consultancy work at UX Society. Previously doing UX and product at Agoda in Bangkok, Thailand as an international intern.**",
-    "I founded [User Experience Society](https://www.facebook.com/UXSoc/), the first student UX organization in the Philippines. For two years, we've had 20+ events with 30+ speakers for over 300 members and 500+ attendees. We've expanded to [California](https://www.facebook.com/profile.php?id=245708449193012) this year.",
-    "I do a bit of writing as well. [Here's an article with a total of 21,000+ views to InVision & Medium](http://blog.invisionapp.com/ux-internship-wisdom/) talking about 50 things I learned spending 3 years as a UX intern.",
-    "I help cultivate the design community in Manila too. I'm the youngest core member of [UX Philippines](https://www.facebook.com/groups/uxphilippines/) and I moderated a panel with some cool people for the [UXPH 2017 Conference](https://www.uxphilippines.com).",
-    "I'm finishing my Bachelor's degree in Management Information Systems at the Ateneo de Manila University, expecting to graduate in 2018."]
+    "**This is a bold paragraph** and it's amazing.",
+    "This is my [GitHub](https://github.com/xaviablaza). It's pretty cool.",
+    "I also do a lot of coding if you didn't already know.",
+    "I study at XYZ University and I expect to graduate in 2050.",
+    "Please enjoy the rest of my website."]
 
     # Link to your resume, place your PDF in the /static folder
-    resume = "ResumeCollado.pdf"
+    resume = "resume.pdf"
 
 [params.process]
     enable = true
