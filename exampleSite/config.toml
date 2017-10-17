@@ -4,7 +4,11 @@ title = "My Portfolio Website"
 theme = "hugo-lodi-theme"
 
 [params]
+    theme_color = "#574CDD"
     description = "Portfolio of Alexis Collado, UX Designer"
+    description_photo = "portfolio.jpg"
+    favicon = "favicon.jpg"
+    logo = "logo.jpg"
     email = "myemail@gmail.com"
     facebook = "lex.collado"
     twitter = "lexiscollado"

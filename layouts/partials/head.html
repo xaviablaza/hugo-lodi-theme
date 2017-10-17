@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>{{ .Site.Title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#574CDD">
+<meta name="theme-color" content="{{ .Site.Params.theme_color }}">
 
 <!-- desc -->
 <meta name="description" content="{{ .Site.Params.Description }}">
@@ -10,11 +10,11 @@
 <meta name="twitter:description" content="{{ .Site.Params.Description }}">
 
 <!-- image -->
-<meta property="og:image" content="{{ .Site.BaseURL }}img/portfolio.jpg">
-<meta name="twitter:image" content="{{ .Site.BaseURL }}img/portfolio.jpg">
+<meta property="og:image" content="{{ .Site.BaseURL }}img/{{ .Site.Params.description_photo }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}img/{{ .Site.Params.description_photo }}">
 
-<link rel="icon" href="{{ .Site.BaseURL }}img/favicon.png" type="image/x-icon">
-<link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.png" type="image/x-icon">
+<link rel="icon" href="{{ .Site.BaseURL }}img/{{ .Site.Params.Favicon }}" type="image/x-icon">
+<link rel="shortcut icon" href="{{ .Site.BaseURL }}img/{{ .Site.Params.Favicon }}" type="image/x-icon">
 
 <link rel="stylesheet" href="css/css.css" >
 <link rel="stylesheet" href="css/final.css">
