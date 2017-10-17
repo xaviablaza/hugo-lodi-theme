@@ -26,7 +26,7 @@ case_subtitle: "Mobile App Design"
 # This is the case description in the case studies section
 case_description: "Cope is a mobile app that allows mental health help seekers track their symptoms and medication. I helped them create a minimum viable product for testing."
 
-# This is the featured image of the case, place this image at /{{post_title_here}/img folder
+# This is the featured image of the case, place this image at /post_title_here/img folder
 # e.g. /mypost/img
 case_feature_img: "featured-cope.jpg"
 
@@ -59,7 +59,7 @@ button_links:
 # Testimonial text
 testimonial: "Alexis designed everything for Cope from the ground up. What I really like about him is his true understanding and grasp of what makes a great UI great. He knows that the user experience needs a lot of refining from customers and he isn't shy to take feedback even if it's critical. Alexis is one of those rare people who just gets it."
 
-# Testimonial photo, place this at /{{post_title_here}}/img
+# Testimonial photo, place this at /post_title_here/img
 # e.g. /mypost/img
 testimonial_photo: "john.jpg"
 
