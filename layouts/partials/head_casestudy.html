@@ -1,21 +1,21 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>{{ .Params.Title }}</title>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="{{ .Site.Params.theme_color }}">
-
-<!-- desc -->
 <meta name="description" content="{{ .Description }}">
 <meta property="og:description" content="{{ .Description }}">
 <meta name="twitter:description" content="{{ .Description }}">
-
-<!-- image -->
 <meta property="og:image" content="{{ .Params.Thumbnail }}">
 <meta name="twitter:image" content="{{ .Params.Thumbnail }}">
-
 <link rel="icon" href="{{ .Site.BaseURL }}img/{{ .Site.Params.Favicon }}" type="image/x-icon">
 <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/{{ .Site.Params.Favicon }}" type="image/x-icon">
-
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/final.css">
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ .Site.GoogleAnalytics }}', 'auto');
+    ga('send', 'pageview');
+</script>
