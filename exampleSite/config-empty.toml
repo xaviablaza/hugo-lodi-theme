@@ -2,6 +2,7 @@ baseURL = "localhost:1313"
 languageCode = "en-us"
 title = "My Portfolio Website"
 theme = "hugo-lodi-theme"
+# googleAnalytics = "UA-XXXXXXXX-Y"
 
 [params]
     # head theme color
@@ -16,11 +17,11 @@ theme = "hugo-lodi-theme"
     description_photo = "portfolio.jpg"
 
     # favicon image (512x512px), place this in the static/img folder
-    favicon = "favicon.jpg"
+    favicon = "favicon.png"
 
     # logo image (204x204px), place this in the static/img folder
     # this appears on the top left of the navigation
-    logo = "logo.jpg"
+    logo = "logo.png"
 
     # Email
     # email = ""
