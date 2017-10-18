@@ -6,7 +6,7 @@
         </div>
         <div class="case-studies-wrapper">
             {{ $baseUrl := .Site.BaseURL }}
-            {{ range .Site.Pages }}
+            {{ range where .Site.Pages "Kind" "page" }}
             <div class="case-study-item">
                 <a href="{{ .URL }}"><img src="{{ $baseUrl }}img/{{ .Params.thumbnail }}" alt=""></a>
                 <h4>{{ .Params.case_short_title }}</h4>
