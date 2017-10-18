@@ -18,6 +18,11 @@ $ git clone https://github.com/xaviablaza/hugo-lodi-theme.git
 
 Copy everything within `exampleSite` into the root of your website folder, and edit it to your hearts content!
 
+If you're lazy, you can do this within the `themes` folder:
+```sh
+$ cp -r hugo-lodi-theme/exampleSite/* ../
+```
+
 Add `theme = "hugo-lodi-theme"` to the  `config.toml` in your root folder, or when serving, use `hugo server -t hugo-lodi-theme`
 
 ## Adding a new case study
