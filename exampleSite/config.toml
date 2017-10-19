@@ -2,7 +2,7 @@ baseURL = "localhost:1313"
 languageCode = "en-us"
 title = "My Portfolio Website"
 theme = "hugo-lodi-theme"
-# googleAnalytics = "UA-XXXXXXXX-Y"
+googleAnalytics = "UA-XXXXXXXX-Y"
 
 [params]
     theme_color = "#574CDD"
