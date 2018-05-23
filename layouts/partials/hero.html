@@ -106,9 +106,11 @@
                 </a>
                 {{ end }}
             </div>
+            {{ if isset .Site.Params.Hero "resume" }}
             <a href="{{ .Site.BaseURL }}{{ .Site.Params.Hero.Resume }}" target="blank" class="download-resume" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">
                 <img style="position: relative;top: 1.8px;padding-right: 6px;" src="svg/dl-resume.svg">
                 Download Resume</a>
+            {{ end }}
         </div>
         <div class="hero-right">
             {{ range $paragraph := .Site.Params.Hero.hero_right }}
