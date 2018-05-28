@@ -4,7 +4,14 @@
     </a>
     <div class="sub-navigation">
         <a href="#" class="main-navigation-link" id="about" data-scroll-goto="0">About</a>
-        <a href="#" class="main-navigation-link" id="process-link" data-scroll-goto="1">Process</a>
-        <a href="#" class="main-navigation-link" data-scroll-goto="2">Case Studies</a>
+        
+        {{ if .Site.Params.process.enable }}
+        <a href="#" class="main-navigation-link" data-scroll-goto="2">{{ .Site.Params.process.title }}</a>
+        {{ end }}
+
+        {{ if .Site.Params.case_studies.enable }}
+        <a href="#" class="main-navigation-link" data-scroll-goto="2">{{ .Site.Params.case_studies.title }}</a>
+        {{ end }}
+        
     </div>
 </nav>
