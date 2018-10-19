@@ -40,6 +40,9 @@ theme = "hugo-lodi-theme"
     
     # Medium username
     # medium = "asdf"
+    
+    # Github username
+    # github = ""
 
 [params.nav]
     enable = true
