@@ -16,6 +16,7 @@ googleAnalytics = "UA-XXXXXXXX-Y"
     dribbble = "alexiscollado"
     linkedin = "https://www.linkedin.com/in/alexander-hans-collado-jr-9444146a"
     medium = "ahvccollado"
+    github = "github"
 
 [params.nav]
     enable = true

@@ -37,16 +37,19 @@ theme = "hugo-lodi-theme"
 
     # LinkedIn URL
     # linkedin = ""
-    
+
     # Medium username
     # medium = "asdf"
+
+    # Github username
+    # github = ""
 
 [params.nav]
     enable = true
 
 [params.hero]
     enable = true
-    
+
     # Place this image in the static/img folder
     avatar = "avatar.jpg"
     subtitle = "Hi! I'm Juan, a front-end developer from Manila."
