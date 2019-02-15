@@ -17,6 +17,7 @@ googleAnalytics = "UA-XXXXXXXX-Y"
     linkedin = "https://www.linkedin.com/in/alexander-hans-collado-jr-9444146a"
     medium = "ahvccollado"
     github = "github"
+    googlescholar = "https://scholar.google.com/citations?user=XXXXXXXXXXXXXXXXXXXXX=en"
 
 [params.nav]
     enable = true

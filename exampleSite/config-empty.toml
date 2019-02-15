@@ -44,6 +44,9 @@ theme = "hugo-lodi-theme"
     # Github username
     # github = ""
 
+    # Google Scholar URL
+    # googlescholar = ""
+
 [params.nav]
     enable = true
 
