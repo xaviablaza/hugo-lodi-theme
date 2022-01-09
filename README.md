@@ -1,17 +1,21 @@
-# Lodi Theme
+# One Page Portfolio (OPP) Hugo Theme based on Lodi Theme from Xavi Ablaza
 
-This theme is a Hugo port of [Alexis Collado's portfolio website](http://www.alexiscollado.com). It is meant to be a portfolio theme, with sections for describing yourself, your 
-process, and some case studies.
+This theme is a Hugo port of [Xavi Ablaza Hugo Lodi
+Theme](https://github.com/xaviablaza/hugo-lodi-theme). It is meant to be a one
+page portfolio theme, with sections for describing yourself, your process, and
+some case studies.
 
 ![](images/screenshot.png)
 
 ## Installation
 
-Follow the themes guide on the [Hugo website](https://gohugo.io/themes/installing-and-using-themes/). Briefly, within your Hugo folder:
+Follow the themes guide on the [Hugo
+website](https://gohugo.io/themes/installing-and-using-themes/). Briefly,
+within your Hugo folder:
 
 ```sh
 $ cd themes
-$ git clone https://github.com/xaviablaza/hugo-lodi-theme.git
+$ git clone https://github.com/sizeofvoid/hugo-opp-theme.git
 ```
 
 ## Getting started
@@ -20,10 +24,10 @@ Copy everything within `exampleSite` into the root of your website folder, and e
 
 If you're lazy, you can do this within the `themes` folder:
 ```sh
-$ cp -r hugo-lodi-theme/exampleSite/* ../
+$ cp -r hugo-opp-theme/exampleSite/* ../
 ```
 
-Add `theme = "hugo-lodi-theme"` to the  `config.toml` in your root folder, or when serving, use `hugo server -t hugo-lodi-theme`
+Add `theme = "hugo-opp-theme"` to the  `config.toml` in your root folder, or when serving, use `hugo server -t hugo-lodi-theme`
 
 ## Adding a new case study
 
@@ -115,4 +119,5 @@ draft: false
 
 ## Credits
 
-Credits for this theme goes fully to Alexis Collado, UX design lodi and cofounder of the User Experience Society. More werpa to you.
+Credits for this theme goes fully to Alexis Collado and Xavi Ablaza, UX design
+lodi and cofounder of the User Experience Society. More werpa to you.

@@ -1,18 +1,20 @@
-name = "Hugo Lodi Theme"
+name = "Portfolio Hugo Theme"
 license = "MIT"
-licenselink = "https://github.com/xaviablaza/yourtheme/blob/master/LICENSE.md"
-description = "Hugo Lodi Theme ported to Hugo by Xavi Ablaza"
-homepage = "https://github.com/xaviablaza/hugo-lodi-theme"
-tags = ["lodi", "responsive", "hero", "personal", "portfolio", "case study", "ux"]
-features = ["homepage", "case studies", "process"]
-min_version = "0.29"
+licenselink = "https://github.com/sizeofvoid/hugo-opp-theme/blob/master/LICENSE.md"
+description = "Portfolio theme for Hugo"
+homepage = "https://github.com/sizeofvoid/hugo-opp-theme"
+tags = ["lodi", "responsive", "hero", "personal", "portfolio" ]
+features = ["homepage", "process"]
+min_version = "0.0"
 
 [author]
-  name = "Xavi Ablaza"
-  homepage = "https://github.com/xaviablaza"
+  name = "Rafael Sadowski"
+  homepage = "https://github.com/sizeofvoid/"
 
 # If porting an existing theme
 [original]
-  author = "Alexis Collado"
-  name = "Portfolio"
-  homepage = "http://www.alexiscollado.com"
+  name = "Xavi Ablaza"
+  homepage = "https://github.com/xaviablaza"
+  #author = "Alexis Collado"
+  #name = "Portfolio"
+  #homepage = "http://www.alexiscollado.com"
